@@ -2,7 +2,7 @@
 
 ---
 
-###运行方式：
+### 运行方式：
 1. 预处理数据 ```python data_preprocess.py```
 2. 模型训练 ```python main.py --train True --iteration 10000  --N 16  --M 5 --model_path ./model```
 3. 模型测试 ```python main.py --train False --model_path ./model```
